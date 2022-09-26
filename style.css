@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Sf Pro Display' , sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(48, 40, 40, 0.8);
+    backdrop-filter:blur(2rem);
+
+}
+.nav--list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav--link{
+    font-size: 1.4rem;
+    color: white;
+    padding: 0 1rem;
+    transition: opacity .5s;
+
+}
+.nav--link:hover{
+    opacity: .7;
+    color: white !important;
+}
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(images/logo/apple12.png) center no-repeat;
+    
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(images/logo/search.svg) center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(images/logo/shopping-bag.svg) center no-repeat;
+    margin-left: 2rem;
+}
+.container-fluid{
+    width: 100%;
+}
+.iphone-13-pro{
+    
+    background: url(images/iphone13pro/pro\ half-01.jpg);
+    margin-top: 4.4rem;
+    height: 69.2rem;
+    background-size: auto 73.9rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+}
+.iphone-13-pro{
+    border-top: none;
+
+}
+.title{
+    color: black;
+    text-align: center;
+    padding-top: 6rem; ;
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 2px;
+    letter-spacing: 1px;
+}
+.title-subheading{
+    font-size: 2.6rem;
+    margin-top: 2.6rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.cta-{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.cta--link{
+    font-size: 2rem;
+    color: blue;
+    display: inline-block;
+}
+.cta--link:nth-child(2){
+    margin-left: 2rem;
+}
+.cta--link:hover{
+    border-bottom: 2px solid blue;
+}
+.iphone13{
+    background: url(images/iphone13/iphone13final-01.jpg);
+    margin-top: 1rem;
+    height: 69.2rem;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+}
+.title-heading-iphone13{
+        font-size: 5.6rem;
+        line-height: 2px;
+        letter-spacing: 1px;
+        color: white;
+    }
+    
+.title-subheading-iphone13{
+        font-size: 2.6rem;
+        margin-top: 2.6rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+.watch{
+    background: url(images/watch/watchfinal-01.jpg) center no-repeat;
+    margin-top: 1rem;
+    height: 69.2rem;
+    background-size: cover;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;}
+   
+#title{
+    color: orange;
+    font-size: 2rem;
+}
+.title- h2{
+    color: red;
+    font-size: 3rem;
+    font-weight: 300;
+}
+#series{
+    margin-top: 2rem;
+}
+
+.macbeth{
+    background: url(images/macbeth/macbeth.jpg);
+    margin-top: 1rem;
+    height: 70rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+color: white;
+text-align: center;
+}
+#macbethtitle{
+    font-size: 2rem;
+    padding-top: 6rem;
+}
+.macbethtitle{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 30rem;
+}
+.subsection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.subsection-second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subsection1{
+    background: url(images/subsection/3-01.jpg);
+    margin-top: 1rem;
+    height: 70rem;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+color: white;
+text-align: center;
+width: 50%;
+min-width: 500px;
+
+}
+#title-heading-valentines-day{
+color: purple;
+font-size: 2rem;
+font-weight: 300;
+}
+#title-subheading-valentines-day{
+    color: purple;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+.subsection2{
+    background: url(images/subsection/2.jpg);
+    margin-top: 1rem;
+    height: 70rem;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+text-align: center;
+width: 50%;
+min-width: 500px;
+
+}
+#title-heading-iphone13{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: -1rem;
+    
+}
+#title-subheading-iphone13{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;  
+    padding-top: 2rem; 
+}
+
+
+.subsection3{
+    background: url(images/subsection/3.jpg);
+    margin-top: 1rem;
+    height: 70rem;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+color: white !important ;
+text-align: center;
+width: 50%;
+min-width: 500px;
+}
+
+#title-heading-subsection3{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 2rem;   
+}
+
+#title-subheading-subsection3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;  
+    margin-top: 3rem; 
+}
+
+.subsection4{
+    background: url(images/subsection/card.jpg);
+    margin-top: 1rem;
+    height: 70rem;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+    border-bottom: .6rem solid white;
+color: white;
+text-align: center;
+width: 50%;
+min-width: 500px;
+}
+#title-heading-subsection4{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-top: 2rem;   
+}
+#title-subheading-subsection4{
+    color: black;
+    font-size: 2rem;
+    font-weight: 300;  
+    margin-top: 3rem; 
+}
+.termsandconditions{
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    
+}
+#termsandconditions{
+    width: 80%;
+    margin: 3rem;
+}
+#hr{
+    width: 80%;
+   margin-left: 13rem;
+}
+.bottom-link{
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: lightgray; 
+    display: flex;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    
+    
+    
+}
+table{
+    margin: 0 auto;
+    letter-spacing: 1px;
+   
+}
+.bottom-link th{
+    color: black;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 1rem;
+   
+}
+
+.a{
+    color: rgb(116, 106, 106);
+    text-align: left;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    
+    
+}
+.a:hover{
+    opacity: .7;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(75, 63, 63);
+    margin: 1rem auto;
+    width: 80%;
+   
+}
+.div1{
+    color: rgb(116, 106, 106);
+    justify-content: left;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex !important;
+    flex-direction: row;
+}
+
+.div2 ul li{
+    display: inline;
+    list-style: none;
+}
+.div3 ul li{
+    display: inline;
+    list-style: none;
+justify-content: flex-end;}
+
+#div2{
+    color: rgb(116, 106, 106);
+    justify-content: center;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex !important;
+    flex-direction: row;
+}
+#div3{
+    color: rgb(116, 106, 106);
+    justify-content: right;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex !important;
+    flex-direction: row;
+}
+.accordion-main{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 822px) {
+header{
+    height: 4.8rem;
+}
+
+    header .container{
+    padding: 0;
+}
+.iphone-13-pro{
+    margin-top: 4.8rem;
+}
+.nav-list-larger{
+    display: none;
+}    
+.nav-list{
+    margin-top: 0;
+}
+.nav-list-mobile{
+    display: flex;
+}
+.nav-item{
+    width: 4.8rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+.nav-item-hidden{
+    display: none;
+}
+.mobile-menu{
+    position: relative;
+    z-index: 1500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.line{
+    position: absolute;
+    width: 2rem;
+    height: 1px;
+    background-color: white;
+}
+.line-top{
+    margin-top: 3px;
+}
+.line-bottom{
+    margin-top: -0.5rem;
+}
+.subsection1, .subsection2, .subsection3, .subsection4{
+    width: 100%;
+}
+.subsection, .subsection-second{
+    width: 100%;
+}
+
+
+.bottom-link{
+display: none;
+}
+.nav-link-bag{
+    margin-right: 2rem;
+}
+.line-top{
+    padding-left: 2rem;
+}
+}
+@media screen and (max-width:1020px) and (min-width:822px) {
+    
+    .subsection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .subsection1{
+        width: 100%;
+        background-color: rgb(247, 236, 236);
+        background-size: contain;
+        
+    }
+    .subsection2, .subsection3{
+        width: 100%;
+    }        
+    .subsection4{
+        width: 100%;
+        background-color: white;
+    }
+    .footer-accordion{
+        display: none;
+    }
+    .termsandconditions{
+        width: 100%;
+    }
+    }
+    @media screen and (min-width: 1020px){
+        .footer-accordion{
+            display: none;
+        }
+    }
+    @media screen and (max-width:822px) and (min-width:600px ){
+        .subsection1, .subsection2, .subsection3, .subsection4{
+            width: 100%;
+        
+    }
+    .subsection{
+        width: 100%;
+    }
+    .subsection-second{
+        width: 100%;
+    }
+    .termsandconditions{width: 100%;}
+        
+    }
+
